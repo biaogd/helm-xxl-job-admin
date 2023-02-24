@@ -3,12 +3,12 @@ entries:
   xxl-job-admin:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-02-23T16:21:14.239349+08:00"
+    created: "2023-02-23T17:16:13.391291988+08:00"
     description: A Helm chart for Kubernetes
-    digest: 6671e339f3fb72853476768b337f8487e224b88849d0bb6a02a932ac5d50a201
+    digest: 31dd7f3072becd89dc7eccd046c1b286c16cd60fc5b91af1ded1f96f0e3cdb2d
     name: xxl-job-admin
     type: application
     urls:
     - xxl-job-admin-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-23T16:21:14.238578545+08:00"
+generated: "2023-02-23T17:16:13.3901463+08:00"

@@ -43,15 +43,15 @@ spec:
               port: http
           readinessProbe:
             httpGet:
-              path: /xll-job-admin/actuator/health/liveness
+              path: /xxl-job-admin/actuator/health/liveness
               port: http
           env:
             - name: DB_URL
-              value: {{.Values.persisent.db.url}}
+              value: {{ .Values.persisent.db.url }}
             - name: DB_USERNAME
-              value: {{.Values.persisent.db.username}}
+              value: {{ .Values.persisent.db.username }}
             - name: DB_PASSWORD
-              value: {{.Values.persisent.db.password}}
+              value: {{ .Values.persisent.db.password }}
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}
